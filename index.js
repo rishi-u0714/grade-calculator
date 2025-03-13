@@ -3,8 +3,8 @@ function generatefields() {
     let fields = document.getElementById("subjectscontainer");
     fields.innerHTML = "";
 
-    if (val < 1 || val > 10) {
-        alert("Please enter a number between 1 and 10");
+    if (val < 1 || val > 30) {
+        alert("Please enter a number between 1 and 30");
         return;
     }
 
